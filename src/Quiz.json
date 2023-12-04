@@ -1,0 +1,93 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is React?",
+        "options": [
+          {"id": "a", "text": "A programming language"},
+          {"id": "b", "text": "A JavaScript library for building user interfaces"},
+          {"id": "c", "text": "An operating system"},
+          {"id": "d", "text": "A database management system"}
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 2,
+        "question": "In React, what is JSX?",
+        "options": [
+          {"id": "a", "text": "JavaScript XML"},
+          {"id": "b", "text": "Java XML"},
+          {"id": "c", "text": "JavaScript Exclamation"},
+          {"id": "d", "text": "Java Syntax Extension"}
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 3,
+        "question": "What is the purpose of `setState` in React?",
+        "options": [
+          {"id": "a", "text": "To update the component's state"},
+          {"id": "b", "text": "To define a constant"},
+          {"id": "c", "text": "To render a component"},
+          {"id": "d", "text": "To declare a function"}
+        ],
+        "correctAnswer": "a"
+      },
+      {
+        "id": 4,
+        "question": "What is a React component?",
+        "options": [
+          {"id": "a", "text": "A function that returns HTML"},
+          {"id": "b", "text": "A function or class that may render UI"},
+          {"id": "c", "text": "A CSS styling rule"},
+          {"id": "d", "text": "An array of strings"}
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 5,
+        "question": "What is the purpose of the `render` method in a React component?",
+        "options": [
+          {"id": "a", "text": "To perform side effects"},
+          {"id": "b", "text": "To update the state"},
+          {"id": "c", "text": "To render UI elements to the DOM"},
+          {"id": "d", "text": "To handle events"}
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 6,
+        "question": "What is the virtual DOM in React?",
+        "options": [
+          {"id": "a", "text": "A debugging tool"},
+          {"id": "b", "text": "An imaginary representation of the browser's DOM"},
+          {"id": "c", "text": "A version control system"},
+          {"id": "d", "text": "A component lifecycle method"}
+        ],
+        "correctAnswer": "b"
+      },
+      {
+        "id": 7,
+        "question": "What is the purpose of the `componentDidMount` lifecycle method?",
+        "options": [
+          {"id": "a", "text": "To update the component's state"},
+          {"id": "b", "text": "To perform cleanup before a component is removed from the DOM"},
+          {"id": "c", "text": "To fetch data or initiate network requests after the component is rendered"},
+          {"id": "d", "text": "To handle user input"}
+        ],
+        "correctAnswer": "c"
+      },
+      {
+        "id": 8,
+        "question": "How can you pass data from a parent component to a child component in React?",
+        "options": [
+          {"id": "a", "text": "Using `state`"},
+          {"id": "b", "text": "Using props"},
+          {"id": "c", "text": "Using the `render` method"},
+          {"id": "d", "text": "Using event listeners"}
+        ],
+        "correctAnswer": "b"
+      }
+    ]
+  }
+  

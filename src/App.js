@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Quiz from './components/Quiz';
+import QUIZ_DATA from './Quiz.json'
 
 function App() {
+
+  let answers = QUIZ_DATA.questions[0].options;
+  console.log(typeof answers);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header className='navbar'>
+        React Quiz
       </header>
-    </div>
+      <Quiz answers={answers}  question={QUIZ_DATA.questions[0].question} />
+    </>
   );
 }
 
