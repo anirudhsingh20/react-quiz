@@ -1,4 +1,4 @@
-function Quiz({question, answers}) {
+function Quiz({question, answers, onSelect}) {
     return ( 
         <div className="quiz-card">
             <div className="quiz-question">
@@ -8,7 +8,7 @@ function Quiz({question, answers}) {
                 {
                     answers.map((answer, index) => {
                         return (
-                            <div key={index} className="quiz-answer">({answer.id}). {answer.text}</div>
+                            <div onClick={() => onSelect(answer.id)} key={index} className="quiz-answer">({answer.id}). {answer.text}</div>
                         )
                     })
                 }

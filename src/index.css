@@ -15,21 +15,22 @@
     background-color: var(--light);
     color: var(--primary);
     padding: 20px 12px;
+    font-size: 24px;
 }
 
 .quiz-card {
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
-    margin-top: 24px;
+    margin-top: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 1px solid #333;
+    background-color: var(--light);
     border-radius: 5px;
-    padding: 20px 12px;
-    box-shadow: 1px 1px 2px 4px #333;
+    padding: 40px 10px;
+    box-shadow: 16px 18px 20px 0px #33333371;
 
 
     .quiz-question {
@@ -42,16 +43,22 @@
 
     .quiz-answers {
         display: flex;
-        gap: 10px;
+        gap: 16px;
         justify-content: flex-start;
         flex-direction: column;
         width: 90%;
         
         .quiz-answer {
-            background-color: #333;
+            background-color: var(--secondary);
             color: #fff;
             padding: 5px 10px;
             border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            
+            &:hover {
+                background-color: var(--primary);
+            }
         }
     }
 }
